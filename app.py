@@ -6,7 +6,7 @@ import numpy as np
 import altair as alt
 
 #Reading the df into pandas and getting a sample of the information.
-df=pd.read_csv("C:/Users/Owner/used_cars_new/vehicles_us.csv")
+df=pd.read_csv("vehicles_us.csv")
 
 #Converting the "date_posted" column to datetime object.
 df['date_posted']=pd.to_datetime(df['date_posted'], format='%Y-%m-%d')
